@@ -9,8 +9,8 @@ public class TestTask {
 		
 		Tax t = new Tax();   // creating an instance of Tax
 		
-		t.grossIncome = 50000;
-		t.dependents = 2;
+		t.grossIncome = 60000;
+		t.dependents = 3;
 		t.state = "NJ";
 		
 		double yourTax = t.calcTax();  // calculating Tax

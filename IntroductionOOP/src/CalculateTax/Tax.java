@@ -6,7 +6,7 @@ public class Tax {
 	int dependents;
 	
 	public double calcTax(){
-		if(grossIncome > 50000){
+		if(grossIncome >= 50000){
 			return grossIncome*0.07;
 		} else {
 		return grossIncome*0.05;
